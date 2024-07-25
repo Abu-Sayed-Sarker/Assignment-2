@@ -305,6 +305,125 @@ header {
     border-radius: 18px;
 }
 
+/* ------------calculator-section------------ */
+
+.calculator-section{
+    
+}
+.calculator-hading{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.calculator-hading h1{
+    max-width: 671px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 14px;
+}
+.calculator-hading p{
+    max-width: 671px;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.table-form-section{
+    background-color: rgb(34, 34, 34);
+    margin: 88px 0;
+    width: 100%;
+}
+.table-form{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.table{
+    width: 50%;
+}
+.table h1{
+    margin: 52PX 0;
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #fff;
+}
+.table table, tr, th, td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    padding: 13px 18px;
+}
+.table table tr th{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+.table table tr td{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.form h1{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 12px;
+}
+.form p{
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 14px;
+    max-width: 440px;
+    margin-left: 12px;
+}
+.form form{
+    margin: 34px 0;
+}
+.form form input{
+    max-width: 216px;
+    padding: 13px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin: 12px;
+    border: none;
+}
+.form form input::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+}
+.form form select{
+    width: 212px;
+    padding: 12px 19px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin: 12px;
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+
+}
+.form form select option{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    background-color: gray;
+    border: none;
+    border-radius: 8px;
+}
+#select-option{
+    width: 443px;
+}
+.form button{
+    padding: 16px 70px;
+    font-weight: 600;
+    font-size: 1.125rem;
+    background-color: #E6533C;
+    border-radius: 42px;
+    margin: 20px 0 52px 15px;
+}
+
+/* -------------------our team section--------------------- */
 
 @media only screen and (max-width: 993px) {
 
@@ -392,4 +511,26 @@ header {
         width: 287px;
         height: 170px;
     }
+
+    /* ------calculator-section-------- */
+    .calculator-hading h1{
+        font-size: 32px;
+    }
+    .table-form{
+        flex-direction: column;
+    }
+    .table{
+        width: 100%;
+    }
+    .form form select{
+        width: 160px;
+    }
+    #select-option{
+        width: 350px;
+    }
+    .form form input{
+        max-width: 160px;
+    }
+
+    /* -------------------our team section--------------------- */
 }
