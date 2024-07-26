@@ -119,6 +119,7 @@ header {
     background-color: #E6533C;
     border-radius: 42px;
     cursor: pointer;
+    border: none;
 }
 
 .b-btn {
@@ -307,6 +308,7 @@ header {
     border-radius: 42px;
     margin-top: 34px;
     cursor: pointer;
+    border: none;
 }
 
 .extra-habits-img img {
@@ -434,6 +436,7 @@ header {
     border-radius: 42px;
     margin: 20px 0 52px 15px;
     cursor: pointer;
+    border: none;
 }
 
 /* -------------------our team section--------------------- */
