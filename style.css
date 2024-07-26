@@ -28,6 +28,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
 
 }
 
@@ -50,6 +51,7 @@ header {
     list-style: none;
     padding: 8px 20px;
     margin: 4px;
+    cursor: pointer;
 }
 
 .nevigation-bar ul li a {
@@ -111,6 +113,7 @@ header {
     font-size: 1.125rem;
     background-color: #E6533C;
     border-radius: 42px;
+    cursor: pointer;
 }
 
 .b-btn {
@@ -121,6 +124,7 @@ header {
     background-color: transparent;
     color: #fff;
     border-radius: 42px;
+    cursor: pointer;
 }
 
 .banner-image {
@@ -139,6 +143,7 @@ header {
     left: 50%;
     top: 15%;
     transform: translate(-50% -50%);
+    cursor: pointer;
 }
 
 .box-1 h1 {
@@ -168,6 +173,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 20px;
+    cursor: pointer;
 }
 
 .box-2 a {
@@ -295,6 +301,7 @@ header {
     background-color: #E6533C;
     border-radius: 42px;
     margin-top: 34px;
+    cursor: pointer;
 }
 
 .extra-habits-img img {
@@ -385,6 +392,7 @@ header {
     border-radius: 8px;
     margin: 12px;
     border: none;
+    cursor: pointer;
 }
 .form form input::placeholder{
     color: rgba(255, 255, 255, 0.6);
@@ -399,6 +407,7 @@ header {
     border: none;
     color: rgba(255, 255, 255, 0.6);
     font-size: 1rem;
+    cursor: pointer;
 
 }
 .form form select option{
@@ -407,6 +416,7 @@ header {
     background-color: gray;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 }
 #select-option{
     width: 443px;
@@ -418,6 +428,7 @@ header {
     background-color: #E6533C;
     border-radius: 42px;
     margin: 20px 0 52px 15px;
+    cursor: pointer;
 }
 
 /* -------------------our team section--------------------- */
@@ -702,11 +713,11 @@ header {
         font-size: 32px;
     }
     .extra-habits-tittle button{
-        padding: 16px 70px;
+        padding: 16px 50px;
     }
     .extra-habits-img img{
-        width: 287px;
-        height: 170px;
+        max-width: 287px;
+        max-height: 170px;
     }
 
     /* ------calculator-section-------- */
@@ -723,13 +734,13 @@ header {
         width: 100%;
     }
     .form form select{
-        width: 160px;
+        max-width: 40%;
     }
     #select-option{
-        width: 350px;
+        max-width: 88%;
     }
     .form form input{
-        max-width: 160px;
+        max-width: 40%;
     }
 
     /* -------------------our team section--------------------- */
@@ -741,8 +752,8 @@ header {
         grid-template-columns: repeat(1, 1fr);
     }
     .our-team-member img{
-        width: 305px;
-        height: 274px;
+        max-width: 100%;
+        height: 100%;
     }
 
 
